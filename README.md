@@ -29,7 +29,7 @@ Multilingual educational assistant for Telegram with AI integration (Ollama), co
    ```bash
    pip install -r requirements.txt
    ```
-3. Create a `.env` file and add your bot token:
+3. Copy .env.example to .env and add your bot token:
    ```
    TELEGRAM_TOKEN=your_token_here
    ```
