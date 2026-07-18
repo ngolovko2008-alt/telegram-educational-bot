@@ -7,23 +7,46 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.so
+*.dll
 
 # Distribution / packaging
 build/
 dist/
 *.egg-info/
+*.egg
 
 # Environment variables
 .env
 .env.*
+*.env
 
 # Database files
 data/*.db
 src/database.db
+*.db
+*.sqlite
+*.sqlite3
 
 # IDE and editor settings
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # Logs
 *.log
+
+# OS files (Windows, macOS)
+Thumbs.db
+.DS_Store
+
+# Backup files
+*.bak
+*.tmp
+
+# PDF reports if your bot generates them locally
+*.pdf
+
+# Local user profiles or testing files
+user_profiles.json
